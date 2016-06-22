@@ -67,7 +67,7 @@ end
     zip_code: [94101, 94105, 94110, 94115].sample,
     city: Faker::Address.city,
     team_size: 2,
-    start_time: "2016-06-14 15:32:26",
+    start_time: "2016-09-14 15:32:26",
     address:Faker::Address.street_address,
     home_team_id: Team.all.sample.id
     )
